@@ -8,8 +8,8 @@ require_once 'layout/header.php';
 <?php var_dump($_GET); ?>
 
 <form>
-    <input type="text" placeholder="Recherche..." name="search" />
-    <button type="submit">
+    <input class="form-control me-2" type="text" placeholder="Recherche..." name="search" />
+    <button class="btn btn-outline-success" type="submit">
         Rechercher
     </button>
 </form>
